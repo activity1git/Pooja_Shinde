@@ -2,7 +2,7 @@
 
 int main()
 {
-   float a, b,sum =0, sub=0;
+   float a, b,sum =0, sub=0, mul=0, division=0;
    int ch;
    printf("Enter two nos a and b");
    scanf("%f %f",&a,&b);
@@ -19,6 +19,14 @@ int main()
             printf("Subtraction of a & b is %f\n",sub);
              break;  
              
+    case 3 : mul=a*b; 
+            printf("Multiplication of a & b is %f\n",mul);
+             break;  
+             
+    case 4 : division=a/b; 
+            printf("Division of a & b is %f\n",division);
+             break; 
+         
     default: printf("Please enter valid input!");             
    }
    
