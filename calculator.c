@@ -2,29 +2,29 @@
 
 int main()
 {
-   float a, b,sum =0, sub=0, mul=0, division=0;
+   float a, b,result=0;
    int ch;
    printf("Enter two nos a and b");
    scanf("%f %f",&a,&b);
-   printf("1.ADDITION\n2.SUBTRACTION\n");
+   printf("1.ADDITION\n2.SUBTRACTION\n3.MULTIPLY\n4.DIVISION\n);
    printf("Enter your choice");
    scanf("%d",&ch);
    switch(ch)
    {
-    case 1 : sum=a+b;
-            printf("Addition of a & b is %f\n",sum);
+    case 1 : result=a+b;
+            printf("Addition of a & b is %f\n",result);
              break;
              
-    case 2 : sub=a-b; 
-            printf("Subtraction of a & b is %f\n",sub);
+    case 2 : result=a-b; 
+            printf("Subtraction of a & b is %f\n",result);
              break;  
              
-    case 3 : mul=a*b; 
-            printf("Multiplication of a & b is %f\n",mul);
+    case 3 : result=a*b; 
+            printf("Multiplication of a & b is %f\n",result);
              break;  
              
-    case 4 : division=a/b; 
-            printf("Division of a & b is %f\n",division);
+    case 4 : result=a/b; 
+            printf("Division of a & b is %f\n",result);
              break; 
          
     default: printf("Please enter valid input!");             
