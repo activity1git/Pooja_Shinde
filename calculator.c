@@ -6,7 +6,7 @@ int main()
    int ch;
    printf("Enter two nos a and b");
    scanf("%f %f",&a,&b);
-   printf("1.ADDITION\n2.SUBTRACTION\n3.MULTIPLY\n4.DIVISION\n);
+   printf("1.ADDITION\n2.SUBTRACTION\n3.MULTIPLY\n4.DIVISION\n");
    printf("Enter your choice");
    scanf("%d",&ch);
    switch(ch)
